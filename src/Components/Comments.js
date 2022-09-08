@@ -1,7 +1,7 @@
 import React from 'react';
-import './post.css';
+import './comments.css';
 
-function Post({border}) {
+function Comments({border}) {
   return (
     <div className='post'>
        <div>
@@ -22,4 +22,4 @@ function Post({border}) {
   )
 }
 
-export default Post;
+export default Comments;
